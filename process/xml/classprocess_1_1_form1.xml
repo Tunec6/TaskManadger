@@ -165,12 +165,29 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>Form1_Load подгружает все второстепенные функции. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="16" column="22" bodyfile="Form1.cs" bodystart="16" bodyend="20"/>
+        <location file="Form1.cs" line="21" column="22" bodyfile="Form1.cs" bodystart="21" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a080740ee11a6b2e0991abbaa599ccff7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -189,10 +206,26 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="22" column="22" bodyfile="Form1.cs" bodystart="22" bodyend="28"/>
+        <location file="Form1.cs" line="31" column="22" bodyfile="Form1.cs" bodystart="31" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a4eddde70df634ef074aab7d813011ff2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -214,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="30" column="22" bodyfile="Form1.cs" bodystart="30" bodyend="37"/>
+        <location file="Form1.cs" line="39" column="22" bodyfile="Form1.cs" bodystart="39" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a8b57b49439855edbd6b3915edfba1df6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -236,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="39" column="22" bodyfile="Form1.cs" bodystart="39" bodyend="45"/>
+        <location file="Form1.cs" line="48" column="22" bodyfile="Form1.cs" bodystart="48" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a30893a86fbaf677768bb8de1737fe586" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -258,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="47" column="22" bodyfile="Form1.cs" bodystart="47" bodyend="51"/>
+        <location file="Form1.cs" line="56" column="22" bodyfile="Form1.cs" bodystart="56" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1ac5497577d25bacdbee3b9a982ec2d2b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -280,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="53" column="22" bodyfile="Form1.cs" bodystart="53" bodyend="57"/>
+        <location file="Form1.cs" line="62" column="22" bodyfile="Form1.cs" bodystart="62" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a1b16fb9c9c8dbf4bea6f1947913200c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -302,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="59" column="22" bodyfile="Form1.cs" bodystart="59" bodyend="62"/>
+        <location file="Form1.cs" line="68" column="22" bodyfile="Form1.cs" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a3cb1c877bd167cf71b525dfc2ff8c81a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -355,7 +388,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Form1.cs" line="5" column="19" bodyfile="Form1.cs" bodystart="6" bodyend="63"/>
+    <location file="Form1.cs" line="5" column="19" bodyfile="Form1.cs" bodystart="6" bodyend="72"/>
     <listofallmembers>
       <member refid="classprocess_1_1_form1_1a1d4efa3fd437f0a0e7aafe6523023c20" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>РІС‹С…РѕРґToolStripMenuItem</name></member>
       <member refid="classprocess_1_1_form1_1afe54184f083a69b733900d0e7d2a4a2f" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>С„СѓРЅРєС†РёРёToolStripMenuItem</name></member>

@@ -33,6 +33,11 @@
             listBox1 = new ListBox();
             timer1 = new System.Windows.Forms.Timer(components);
             textBox1 = new TextBox();
+            menuStrip1 = new MenuStrip();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            функцииToolStripMenuItem = new ToolStripMenuItem();
+            выходToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -52,7 +57,7 @@
             listBox1.BorderStyle = BorderStyle.FixedSingle;
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 15);
+            listBox1.Location = new Point(12, 35);
             listBox1.MinimumSize = new Size(549, 306);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(776, 407);
@@ -67,12 +72,43 @@
             // 
             textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox1.ForeColor = SystemColors.WindowText;
-            textBox1.Location = new Point(12, 440);
+            textBox1.Location = new Point(12, 448);
             textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Поиск задач";
             textBox1.ScrollBars = ScrollBars.Vertical;
             textBox1.Size = new Size(262, 23);
             textBox1.TabIndex = 2;
             textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1 });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.TabIndex = 3;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { функцииToolStripMenuItem, выходToolStripMenuItem });
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(68, 20);
+            toolStripMenuItem1.Text = "Функции";
+            // 
+            // функцииToolStripMenuItem
+            // 
+            функцииToolStripMenuItem.Name = "функцииToolStripMenuItem";
+            функцииToolStripMenuItem.Size = new Size(189, 22);
+            функцииToolStripMenuItem.Text = "Запуск новой задачи";
+            функцииToolStripMenuItem.Click += функцииToolStripMenuItem_Click;
+            // 
+            // выходToolStripMenuItem
+            // 
+            выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            выходToolStripMenuItem.Size = new Size(189, 22);
+            выходToolStripMenuItem.Text = "Выход";
+            выходToolStripMenuItem.Click += выходToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -83,10 +119,14 @@
             Controls.Add(listBox1);
             Controls.Add(textBox1);
             Controls.Add(button1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             MinimumSize = new Size(246, 362);
             Name = "Form1";
             Text = "Диспетчер задач";
             Load += Form1_Load;
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -97,5 +137,9 @@
         private ListBox listBox1;
         private System.Windows.Forms.Timer timer1;
         private TextBox textBox1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem функцииToolStripMenuItem;
+        private ToolStripMenuItem выходToolStripMenuItem;
     }
 }

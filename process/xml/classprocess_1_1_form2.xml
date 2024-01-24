@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="ru">
+  <compounddef id="classprocess_1_1_form2" kind="class" language="C#" prot="public">
+    <compoundname>process::Form2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classprocess_1_1_form2_1a3bd1fce9d427f6ca47a610cd37653575" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer process.Form2.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>process.Form2.components</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="8" column="48" bodyfile="Form2.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprocess_1_1_form2_1a159abdbfda75eb26d1eba4d0ad1f76f5" prot="private" static="no" mutable="no">
+        <type>TextBox</type>
+        <definition>TextBox process.Form2.textBox1</definition>
+        <argsstring></argsstring>
+        <name>textBox1</name>
+        <qualifiedname>process.Form2.textBox1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="92" column="25" bodyfile="Form2.Designer.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprocess_1_1_form2_1a12d72cc4034856b10629898905750f5e" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label process.Form2.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <qualifiedname>process.Form2.label1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="93" column="23" bodyfile="Form2.Designer.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprocess_1_1_form2_1a00de0301a298e0bba617d5fb78daa80d" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button process.Form2.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <qualifiedname>process.Form2.button1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="94" column="24" bodyfile="Form2.Designer.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprocess_1_1_form2_1a949eb412f3590a3723d0ae278e3b8c3e" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button process.Form2.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <qualifiedname>process.Form2.button2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="95" column="24" bodyfile="Form2.Designer.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classprocess_1_1_form2_1a23528e9aa15931f193a8b2afe8c3edeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>process.Form2.Form2</definition>
+        <argsstring>()</argsstring>
+        <name>Form2</name>
+        <qualifiedname>process.Form2.Form2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.cs" line="15" column="16" bodyfile="Form2.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classprocess_1_1_form2_1abd45fc061a204975bc98f8c7c7818774" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form2.label1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>label1_Click</name>
+        <qualifiedname>process.Form2.label1_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.cs" line="20" column="22" bodyfile="Form2.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classprocess_1_1_form2_1a1b57a990dcc89e6b28baea089a5f3e41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form2.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <qualifiedname>process.Form2.button1_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.cs" line="25" column="22" bodyfile="Form2.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classprocess_1_1_form2_1a6de2b57995ddf76cdc06d6f910a26b94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form2.Form2_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form2_Load</name>
+        <qualifiedname>process.Form2.Form2_Load</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.cs" line="30" column="22" bodyfile="Form2.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classprocess_1_1_form2_1a9eb3e9f6710fc81381fc8b13ab0d6e63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form2.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <qualifiedname>process.Form2.button2_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.cs" line="35" column="22" bodyfile="Form2.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classprocess_1_1_form2_1a66fbbd3a44fe572215c49975e0c6e8e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form2.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>process.Form2.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="29" column="22" bodyfile="Form2.Designer.cs" bodystart="29" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classprocess_1_1_form2_1a84f718bcbe80a47d360e29ab4cc64eb3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void process.Form2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>process.Form2.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.Designer.cs" line="14" column="33" bodyfile="Form2.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Form2.cs" line="13" column="19" bodyfile="Form2.cs" bodystart="14" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classprocess_1_1_form2_1a00de0301a298e0bba617d5fb78daa80d" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>button1</name></member>
+      <member refid="classprocess_1_1_form2_1a1b57a990dcc89e6b28baea089a5f3e41" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>button1_Click</name></member>
+      <member refid="classprocess_1_1_form2_1a949eb412f3590a3723d0ae278e3b8c3e" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>button2</name></member>
+      <member refid="classprocess_1_1_form2_1a9eb3e9f6710fc81381fc8b13ab0d6e63" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>button2_Click</name></member>
+      <member refid="classprocess_1_1_form2_1a3bd1fce9d427f6ca47a610cd37653575" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>components</name></member>
+      <member refid="classprocess_1_1_form2_1a84f718bcbe80a47d360e29ab4cc64eb3" prot="protected" virt="non-virtual"><scope>process::Form2</scope><name>Dispose</name></member>
+      <member refid="classprocess_1_1_form2_1a23528e9aa15931f193a8b2afe8c3edeb" prot="public" virt="non-virtual"><scope>process::Form2</scope><name>Form2</name></member>
+      <member refid="classprocess_1_1_form2_1a6de2b57995ddf76cdc06d6f910a26b94" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>Form2_Load</name></member>
+      <member refid="classprocess_1_1_form2_1a66fbbd3a44fe572215c49975e0c6e8e5" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>InitializeComponent</name></member>
+      <member refid="classprocess_1_1_form2_1a12d72cc4034856b10629898905750f5e" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>label1</name></member>
+      <member refid="classprocess_1_1_form2_1abd45fc061a204975bc98f8c7c7818774" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>label1_Click</name></member>
+      <member refid="classprocess_1_1_form2_1a159abdbfda75eb26d1eba4d0ad1f76f5" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>textBox1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="ru">
+  <compounddef id="classprocess_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>process::Properties::Resources</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classprocess_1_1_properties_1_1_resources_1a7bdf0d1421b8576cda322242f32ab2cf" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager process.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <qualifiedname>process.Properties.Resources.resourceMan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="27" column="63" bodyfile="Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprocess_1_1_properties_1_1_resources_1a4c218c81b5a1a38c5196d6eef2a5199e" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo process.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <qualifiedname>process.Properties.Resources.resourceCulture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="29" column="63" bodyfile="Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classprocess_1_1_properties_1_1_resources_1a1efb956f5cdf9bd4a122ba32b44965a2" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager process.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <qualifiedname>process.Properties.Resources.ResourceManager</qualifiedname>
+        <briefdescription>
+<para>Возвращает кэшированный экземпляр ResourceManager, использованный этим классом. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="39" column="64" bodyfile="Properties/Resources.Designer.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="classprocess_1_1_properties_1_1_resources_1a9b4064419d97bce2f40fea62aafa0c42" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo process.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <qualifiedname>process.Properties.Resources.Culture</qualifiedname>
+        <briefdescription>
+<para>Перезаписывает свойство CurrentUICulture текущего потока для всех обращений к ресурсу с помощью этого класса ресурса со строгой типизацией. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="54" column="64" bodyfile="Properties/Resources.Designer.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classprocess_1_1_properties_1_1_resources_1aa7668c94df3fe209c920d280edd2cccd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>process.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <qualifiedname>process.Properties.Resources.Resources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="32" column="18" bodyfile="Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Класс ресурса со строгой типизацией для поиска локализованных строк и т.д. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>process.Properties.Resources</label>
+        <link refid="classprocess_1_1_properties_1_1_resources"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>process.Properties.Resources</label>
+        <link refid="classprocess_1_1_properties_1_1_resources"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Properties/Resources.Designer.cs" line="25" column="13" bodyfile="Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classprocess_1_1_properties_1_1_resources_1a9b4064419d97bce2f40fea62aafa0c42" prot="package" virt="non-virtual"><scope>process::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="classprocess_1_1_properties_1_1_resources_1a4c218c81b5a1a38c5196d6eef2a5199e" prot="private" virt="non-virtual"><scope>process::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="classprocess_1_1_properties_1_1_resources_1a7bdf0d1421b8576cda322242f32ab2cf" prot="private" virt="non-virtual"><scope>process::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="classprocess_1_1_properties_1_1_resources_1a1efb956f5cdf9bd4a122ba32b44965a2" prot="package" virt="non-virtual"><scope>process::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="classprocess_1_1_properties_1_1_resources_1aa7668c94df3fe209c920d280edd2cccd" prot="package" virt="non-virtual"><scope>process::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

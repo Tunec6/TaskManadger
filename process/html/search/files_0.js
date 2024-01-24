@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['_2enetcoreapp_2cversion_3dv8_2e0_2eassemblyattributes_2ecs_0',['.NETCoreApp,Version=v8.0.AssemblyAttributes.cs',['../_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs.html',1,'(Глобальное пространство имён)'],['../_release_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs.html',1,'(Глобальное пространство имён)']]]
+  ['form1_2ecs_0',['Form1.cs',['../_form1_8cs.html',1,'']]],
+  ['form1_2edesigner_2ecs_1',['Form1.Designer.cs',['../_form1_8_designer_8cs.html',1,'']]],
+  ['form2_2ecs_2',['Form2.cs',['../_form2_8cs.html',1,'']]],
+  ['form2_2edesigner_2ecs_3',['Form2.Designer.cs',['../_form2_8_designer_8cs.html',1,'']]]
 ];

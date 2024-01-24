@@ -5,7 +5,6 @@
     <innerclass refid="classprocess_1_1_form1" prot="public">process::Form1</innerclass>
     <innerclass refid="classprocess_1_1_form2" prot="public">process::Form2</innerclass>
     <innerclass refid="classprocess_1_1_program" prot="package">process::Program</innerclass>
-    <innernamespace refid="namespaceprocess_1_1_properties">process::Properties</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

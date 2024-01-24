@@ -23,15 +23,15 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Титульная страница",url:"index.html"},
-{text:"Пакеты",url:"namespaces.html",children:[
+{text:"Main Page",url:"index.html"},
+{text:"Packages",url:"namespaces.html",children:[
 {text:"Package List",url:"namespaces.html"}]},
-{text:"Классы",url:"annotated.html",children:[
-{text:"Классы",url:"annotated.html"},
-{text:"Алфавитный указатель классов",url:"classes.html"},
-{text:"Иерархия классов",url:"hierarchy.html"},
-{text:"Члены классов",url:"functions.html",children:[
-{text:"Указатель",url:"functions.html",children:[
+{text:"Classes",url:"annotated.html",children:[
+{text:"Class List",url:"annotated.html"},
+{text:"Class Index",url:"classes.html"},
+{text:"Class Hierarchy",url:"hierarchy.html"},
+{text:"Class Members",url:"functions.html",children:[
+{text:"All",url:"functions.html",children:[
 {text:"b",url:"functions.html#index_b"},
 {text:"c",url:"functions.html#index_c"},
 {text:"d",url:"functions.html#index_d"},
@@ -39,14 +39,12 @@ var menudata={children:[
 {text:"i",url:"functions.html#index_i"},
 {text:"l",url:"functions.html#index_l"},
 {text:"m",url:"functions.html#index_m"},
-{text:"r",url:"functions.html#index_r"},
 {text:"t",url:"functions.html#index_t"},
 {text:"в",url:"functions.html#index_a0xd0b2"},
 {text:"ф",url:"functions.html#index_a0xd184"},
 {text:"���",url:"functions.html#index_a0xe2fbf5"},
 {text:"����",url:"functions.html#index_a0xf4f3edea"}]},
-{text:"Функции",url:"functions_func.html"},
-{text:"Переменные",url:"functions_vars.html"},
-{text:"Свойства",url:"functions_prop.html"}]}]},
-{text:"Файлы",url:"files.html",children:[
-{text:"Файлы",url:"files.html"}]}]}
+{text:"Functions",url:"functions_func.html"},
+{text:"Variables",url:"functions_vars.html"}]}]},
+{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html"}]}]}

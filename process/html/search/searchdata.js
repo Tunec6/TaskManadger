@@ -1,12 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: ".bcdfilmprtвф�������",
-  1: "fpr",
+  0: "bcdfilmptвф�������",
+  1: "f",
   2: "p",
-  3: ".fpr",
-  4: "bdfilmrt�������",
-  5: "bclmrtвф",
-  6: "cr"
+  3: "fp",
+  4: "bdfilt�������",
+  5: "bclmtвф"
 };
 
 var indexSectionNames =
@@ -16,18 +15,16 @@ var indexSectionNames =
   2: "namespaces",
   3: "files",
   4: "functions",
-  5: "variables",
-  6: "properties"
+  5: "variables"
 };
 
 var indexSectionLabels =
 {
-  0: "Указатель",
-  1: "Классы",
-  2: "Пространства имен",
-  3: "Файлы",
-  4: "Функции",
-  5: "Переменные",
-  6: "Свойства"
+  0: "All",
+  1: "Classes",
+  2: "Namespaces",
+  3: "Files",
+  4: "Functions",
+  5: "Variables"
 };
 

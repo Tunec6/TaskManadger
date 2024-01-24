@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['Ğ²Ñ‹Ñ…Ğ¾Ğ´toolstripmenuitem_0',['Ğ²Ñ‹Ñ…Ğ¾Ğ´ToolStripMenuItem',['../classprocess_1_1_form1.html#a1d4efa3fd437f0a0e7aafe6523023c20',1,'process::Form1']]]
+  ['âûõîäToolstripmenuitem_5fclick_0',['âûõîäToolStripMenuItem_Click',['../classprocess_1_1_form1.html#a1b16fb9c9c8dbf4bea6f1947913200c3',1,'process::Form1']]]
 ];

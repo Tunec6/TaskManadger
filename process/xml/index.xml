@@ -38,34 +38,7 @@
   <compound refid="classprocess_1_1_program" kind="class"><name>process::Program</name>
     <member refid="classprocess_1_1_program_1a4e3d1841b9bbd264ef29222a3b55fd48" kind="function"><name>Main</name></member>
   </compound>
-  <compound refid="classprocess_1_1_properties_1_1_resources" kind="class"><name>process::Properties::Resources</name>
-    <member refid="classprocess_1_1_properties_1_1_resources_1a7bdf0d1421b8576cda322242f32ab2cf" kind="variable"><name>resourceMan</name></member>
-    <member refid="classprocess_1_1_properties_1_1_resources_1a4c218c81b5a1a38c5196d6eef2a5199e" kind="variable"><name>resourceCulture</name></member>
-    <member refid="classprocess_1_1_properties_1_1_resources_1a1efb956f5cdf9bd4a122ba32b44965a2" kind="property"><name>ResourceManager</name></member>
-    <member refid="classprocess_1_1_properties_1_1_resources_1a9b4064419d97bce2f40fea62aafa0c42" kind="property"><name>Culture</name></member>
-    <member refid="classprocess_1_1_properties_1_1_resources_1aa7668c94df3fe209c920d280edd2cccd" kind="function"><name>Resources</name></member>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_drawing" kind="namespace"><name>global::System::Drawing</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
-  </compound>
-  <compound refid="namespaceglobal_1_1_system_1_1_windows_1_1_forms" kind="namespace"><name>global::System::Windows::Forms</name>
-  </compound>
   <compound refid="namespaceprocess" kind="namespace"><name>process</name>
-  </compound>
-  <compound refid="namespaceprocess_1_1_properties" kind="namespace"><name>process::Properties</name>
   </compound>
   <compound refid="namespace_system" kind="namespace"><name>System</name>
   </compound>
@@ -81,8 +54,6 @@
   </compound>
   <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
   </compound>
-  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
-  </compound>
   <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
   </compound>
   <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
@@ -97,32 +68,6 @@
   </compound>
   <compound refid="_form2_8_designer_8cs" kind="file"><name>Form2.Designer.cs</name>
   </compound>
-  <compound refid="_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
-  </compound>
-  <compound refid="_release_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
-  </compound>
-  <compound refid="_debug_2net8_80-windows_2process_8_assembly_info_8cs" kind="file"><name>process.AssemblyInfo.cs</name>
-  </compound>
-  <compound refid="_release_2net8_80-windows_2process_8_assembly_info_8cs" kind="file"><name>process.AssemblyInfo.cs</name>
-  </compound>
-  <compound refid="_debug_2net8_80-windows_2process_8_global_usings_8g_8cs" kind="file"><name>process.GlobalUsings.g.cs</name>
-  </compound>
-  <compound refid="_release_2net8_80-windows_2process_8_global_usings_8g_8cs" kind="file"><name>process.GlobalUsings.g.cs</name>
-  </compound>
   <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
-  </compound>
-  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
-  </compound>
-  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
-  </compound>
-  <compound refid="dir_7847f6bd3b34c64ead7d39305ac8e6ba" kind="dir"><name>obj/Debug/net8.0-windows</name>
-  </compound>
-  <compound refid="dir_5e31dd54f12682bec7b38465079f24ee" kind="dir"><name>obj/Release/net8.0-windows</name>
-  </compound>
-  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
-  </compound>
-  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
-  </compound>
-  <compound refid="dir_9fe5cc214b8578ee5b8e153089aca810" kind="dir"><name>obj/Release</name>
   </compound>
 </doxygenindex>

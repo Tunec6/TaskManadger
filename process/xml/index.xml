@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="ru">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
   <compound refid="classprocess_1_1_form1" kind="class"><name>process::Form1</name>
     <member refid="classprocess_1_1_form1_1a9b19dfd55a749e8edc8499f92e600c25" kind="variable"><name>components</name></member>
     <member refid="classprocess_1_1_form1_1a78dc5d579d51a8cd54a59bd5cbb7ef21" kind="variable"><name>button1</name></member>
@@ -10,6 +10,7 @@
     <member refid="classprocess_1_1_form1_1af0129ef9e78b038b72d3e4bfef4e21cc" kind="variable"><name>toolStripMenuItem1</name></member>
     <member refid="classprocess_1_1_form1_1afe54184f083a69b733900d0e7d2a4a2f" kind="variable"><name>—Ñ—É–Ω–∫—Ü–∏–∏ToolStripMenuItem</name></member>
     <member refid="classprocess_1_1_form1_1a1d4efa3fd437f0a0e7aafe6523023c20" kind="variable"><name>–≤—ã—Ö–æ–¥ToolStripMenuItem</name></member>
+    <member refid="classprocess_1_1_form1_1a6db604d8b5ba559c4f723aae4237ed2c" kind="variable"><name>button2</name></member>
     <member refid="classprocess_1_1_form1_1a95daa68cf9ebdbe70396a1b7bf90bbee" kind="function"><name>Form1</name></member>
     <member refid="classprocess_1_1_form1_1a92038ace38e84a3c77c88fa0edf4dfa2" kind="function"><name>Form1_Load</name></member>
     <member refid="classprocess_1_1_form1_1a080740ee11a6b2e0991abbaa599ccff7" kind="function"><name>button1_Click</name></member>
@@ -18,6 +19,7 @@
     <member refid="classprocess_1_1_form1_1a30893a86fbaf677768bb8de1737fe586" kind="function"><name>textBox1_TextChanged</name></member>
     <member refid="classprocess_1_1_form1_1ac5497577d25bacdbee3b9a982ec2d2b7" kind="function"><name>ÙÛÌÍˆËËToolStripMenuItem_Click</name></member>
     <member refid="classprocess_1_1_form1_1a1b16fb9c9c8dbf4bea6f1947913200c3" kind="function"><name>‚˚ıÓ‰ToolStripMenuItem_Click</name></member>
+    <member refid="classprocess_1_1_form1_1ad592557aec43eefc84b232a0ce3b83be" kind="function"><name>button2_Click</name></member>
     <member refid="classprocess_1_1_form1_1a3cb1c877bd167cf71b525dfc2ff8c81a" kind="function"><name>InitializeComponent</name></member>
     <member refid="classprocess_1_1_form1_1af78e14feb74940d74ded2e5e4f9e120b" kind="function"><name>Dispose</name></member>
   </compound>
@@ -32,11 +34,14 @@
     <member refid="classprocess_1_1_form2_1a1b57a990dcc89e6b28baea089a5f3e41" kind="function"><name>button1_Click</name></member>
     <member refid="classprocess_1_1_form2_1a6de2b57995ddf76cdc06d6f910a26b94" kind="function"><name>Form2_Load</name></member>
     <member refid="classprocess_1_1_form2_1a9eb3e9f6710fc81381fc8b13ab0d6e63" kind="function"><name>button2_Click</name></member>
+    <member refid="classprocess_1_1_form2_1a3ed929c3695f137ee66fbc6990179a94" kind="function"><name>textBox1_TextChanged</name></member>
     <member refid="classprocess_1_1_form2_1a66fbbd3a44fe572215c49975e0c6e8e5" kind="function"><name>InitializeComponent</name></member>
     <member refid="classprocess_1_1_form2_1a84f718bcbe80a47d360e29ab4cc64eb3" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="classprocess_1_1_program" kind="class"><name>process::Program</name>
     <member refid="classprocess_1_1_program_1a4e3d1841b9bbd264ef29222a3b55fd48" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_basic" kind="namespace"><name>Microsoft::VisualBasic</name>
   </compound>
   <compound refid="namespaceprocess" kind="namespace"><name>process</name>
   </compound>

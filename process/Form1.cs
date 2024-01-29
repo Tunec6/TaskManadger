@@ -1,28 +1,30 @@
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace process
 {
     public partial class Form1 : Form
-    {   
+    {
 
         public Form1()
         {
             InitializeComponent();
-            
+
             timer1.Interval = 10000;
             timer1.Enabled = true;
             timer1.Tick += new System.EventHandler(timer1_Tick);
         }
 
         /// <summary>
-        /// Form1_Load loads all secondary functions 
+        /// /*Form1_Load loads all secondary functions */
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
+
             textBox1_TextChanged(sender, e);
-            listBox1_SelectedIndexChanged_1(sender, e);
+            listView1_SelectedIndexChanged(sender, e);
         }
         /// <summary>
         /// The button responsible for canceling the task
@@ -33,22 +35,16 @@ namespace process
         {
 
             Process[] processes = Process.GetProcesses();
-            processes[listBox1.SelectedIndex].Kill();
+            //processes[].Kill();
 
         }
+
         /// <summary>
         /// The function responsible for outputting the list of processes
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
 
-            foreach (Process process in Process.GetProcesses())
-            {
-                listBox1.Items.Add(process.ProcessName);
-            }
-        }
         /// <summary>
         /// Timer responsible for updating the list of processes 
         /// </summary>
@@ -57,14 +53,14 @@ namespace process
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            listBox1.Items.Clear();
-            listBox1_SelectedIndexChanged_1(sender, e);
+            listView1.Items.Clear();
+            listView1_SelectedIndexChanged(sender, e);
 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-           
+
         }
         /// <summary>
         /// The function starts an additional window for starting tasks
@@ -73,14 +69,13 @@ namespace process
         /// <param name="e"></param>
         private void функцииToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (Form2 frm = new Form2())
+            using (Form2 from = new Form2())
             {
-                if (frm.ShowDialog() == DialogResult.OK)
+                if (from.ShowDialog() == DialogResult.OK)
                 {
 
                 }
 
-                listBox1.Sorted = true;
 
             }
 
@@ -101,20 +96,44 @@ namespace process
         /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(textBox1.Text))
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            foreach (Process process in Process.GetProcesses())
             {
                 try
                 {
-                    Process[] processes = Process.GetProcesses();
-                    
+                    // Загружаем иконку процесса
+                    Icon icon = System.Drawing.Icon.ExtractAssociatedIcon(process.MainModule.FileName);
+
+                    // Создаем новый PictureBox для отображения иконки
+                    PictureBox pictureBox = new PictureBox();
+                    pictureBox.Image = icon.ToBitmap();
+                    pictureBox.SizeMode = PictureBoxSizeMode.AutoSize;
+
+                    // Устанавливаем положение PictureBox на форме
+                    pictureBox.Left = 10;
+                    pictureBox.Top = Controls.Count * 50;
+
+                    // Добавляем PictureBox на форму
+                    this.Controls.Add(pictureBox);
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                catch { };
+                listView1.Items.Add(process.ProcessName);
             }
         }
 
-        p
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

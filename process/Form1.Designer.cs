@@ -30,7 +30,6 @@
         {
             components = new System.ComponentModel.Container();
             button1 = new Button();
-            listBox1 = new ListBox();
             timer1 = new System.Windows.Forms.Timer(components);
             textBox1 = new TextBox();
             menuStrip1 = new MenuStrip();
@@ -38,7 +37,12 @@
             функцииToolStripMenuItem = new ToolStripMenuItem();
             выходToolStripMenuItem = new ToolStripMenuItem();
             button2 = new Button();
+            listView1 = new ListView();
+            Task = new ColumnHeader();
+            Icon = new ColumnHeader();
+            pictureBox1 = new PictureBox();
             menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -51,20 +55,6 @@
             button1.Text = "Снять задачу";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // listBox1
-            // 
-            listBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            listBox1.BorderStyle = BorderStyle.FixedSingle;
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 35);
-            listBox1.MinimumSize = new Size(549, 306);
-            listBox1.Name = "listBox1";
-            listBox1.ScrollAlwaysVisible = true;
-            listBox1.Size = new Size(776, 407);
-            listBox1.TabIndex = 1;
-            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged_1;
             // 
             // timer1
             // 
@@ -90,6 +80,7 @@
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 3;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // toolStripMenuItem1
             // 
@@ -117,11 +108,42 @@
             button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             button2.Location = new Point(280, 448);
             button2.Name = "button2";
-            button2.Size = new Size(83, 26);
+            button2.Size = new Size(83, 23);
             button2.TabIndex = 4;
             button2.Text = "Снять Задачу";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
+            // 
+            // listView1
+            // 
+            listView1.Columns.AddRange(new ColumnHeader[] { Task, Icon });
+            listView1.Location = new Point(12, 27);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(776, 391);
+            listView1.Sorting = SortOrder.Ascending;
+            listView1.TabIndex = 5;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Details;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            // 
+            // Task
+            // 
+            Task.DisplayIndex = 1;
+            Task.Text = "Task";
+            // 
+            // Icon
+            // 
+            Icon.DisplayIndex = 0;
+            Icon.Text = "Icon";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(12, 49);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(52, 369);
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Form1
             // 
@@ -129,8 +151,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(800, 483);
+            Controls.Add(pictureBox1);
+            Controls.Add(listView1);
             Controls.Add(button2);
-            Controls.Add(listBox1);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(menuStrip1);
@@ -141,6 +164,7 @@
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -148,7 +172,6 @@
         #endregion
 
         private Button button1;
-        private ListBox listBox1;
         private System.Windows.Forms.Timer timer1;
         private TextBox textBox1;
         private MenuStrip menuStrip1;
@@ -156,5 +179,9 @@
         private ToolStripMenuItem функцииToolStripMenuItem;
         private ToolStripMenuItem выходToolStripMenuItem;
         private Button button2;
+        private ListView listView1;
+        private ColumnHeader Task;
+        private ColumnHeader Icon;
+        private PictureBox pictureBox1;
     }
 }

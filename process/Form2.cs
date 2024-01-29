@@ -34,10 +34,9 @@ namespace process
             {
                 try
                 {
-                    /// Creating a list of tasks and launching the selected task
-                    Process proc = new Process();
-                    proc.StartInfo.FileName = textBox1.Text;
-                    proc.Start();
+                    Process process = new Process();
+                    process.StartInfo.FileName = textBox1.Text;
+                    process.Start();
                 }
                 catch (Exception ex)
                 {

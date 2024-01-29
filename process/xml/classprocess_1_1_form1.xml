@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="ru">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
   <compounddef id="classprocess_1_1_form1" kind="class" language="C#" prot="public">
     <compoundname>process::Form1</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="137" column="24" bodyfile="Form1.Designer.cs" bodystart="137" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="151" column="24" bodyfile="Form1.Designer.cs" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1ac1a81aed3101efcde06ee0a3010c9de5" prot="private" static="no" mutable="no">
         <type>ListBox</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="138" column="25" bodyfile="Form1.Designer.cs" bodystart="138" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="152" column="25" bodyfile="Form1.Designer.cs" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1a828b1b497ff9f83bc2f525537b11bd2a" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Timer</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="139" column="41" bodyfile="Form1.Designer.cs" bodystart="139" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="153" column="41" bodyfile="Form1.Designer.cs" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1a388c3bfad11bdfd13f4404dcbd4f785f" prot="private" static="no" mutable="no">
         <type>TextBox</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="140" column="25" bodyfile="Form1.Designer.cs" bodystart="140" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="154" column="25" bodyfile="Form1.Designer.cs" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1a0dcea67c5665371bb52828775a27b549" prot="private" static="no" mutable="no">
         <type>MenuStrip</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="141" column="27" bodyfile="Form1.Designer.cs" bodystart="141" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="155" column="27" bodyfile="Form1.Designer.cs" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1af0129ef9e78b038b72d3e4bfef4e21cc" prot="private" static="no" mutable="no">
         <type>ToolStripMenuItem</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="142" column="35" bodyfile="Form1.Designer.cs" bodystart="142" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="156" column="35" bodyfile="Form1.Designer.cs" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1afe54184f083a69b733900d0e7d2a4a2f" prot="private" static="no" mutable="no">
         <type>ToolStripMenuItem</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="143" column="35" bodyfile="Form1.Designer.cs" bodystart="143" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="157" column="35" bodyfile="Form1.Designer.cs" bodystart="157" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form1_1a1d4efa3fd437f0a0e7aafe6523023c20" prot="private" static="no" mutable="no">
         <type>ToolStripMenuItem</type>
@@ -130,7 +130,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="144" column="35" bodyfile="Form1.Designer.cs" bodystart="144" bodyend="-1"/>
+        <location file="Form1.Designer.cs" line="158" column="35" bodyfile="Form1.Designer.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classprocess_1_1_form1_1a6db604d8b5ba559c4f723aae4237ed2c" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button process.Form1.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <qualifiedname>process.Form1.button2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="159" column="24" bodyfile="Form1.Designer.cs" bodystart="159" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -146,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="7" column="16" bodyfile="Form1.cs" bodystart="7" bodyend="14"/>
+        <location file="Form1.cs" line="8" column="16" bodyfile="Form1.cs" bodystart="8" bodyend="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -165,7 +179,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Form1_Load ïîäãðóæàåò âñå âòîðîñòåïåííûå ôóíêöèè. </para>
+<para>/*Form1_Load loads all secondary functions *<zwj/>/ </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -187,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="21" column="22" bodyfile="Form1.cs" bodystart="21" bodyend="25"/>
+        <location file="Form1.cs" line="22" column="22" bodyfile="Form1.cs" bodystart="22" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a080740ee11a6b2e0991abbaa599ccff7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -204,6 +218,7 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>The button responsible for canceling the task. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -225,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="31" column="22" bodyfile="Form1.cs" bodystart="31" bodyend="37"/>
+        <location file="Form1.cs" line="33" column="22" bodyfile="Form1.cs" bodystart="33" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a4eddde70df634ef074aab7d813011ff2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -242,12 +257,29 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>The function responsible for outputting the list of processes. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="39" column="22" bodyfile="Form1.cs" bodystart="39" bodyend="46"/>
+        <location file="Form1.cs" line="46" column="22" bodyfile="Form1.cs" bodystart="46" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a8b57b49439855edbd6b3915edfba1df6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -264,12 +296,29 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>Timer responsible for updating the list of processes. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="48" column="22" bodyfile="Form1.cs" bodystart="48" bodyend="54"/>
+        <location file="Form1.cs" line="60" column="22" bodyfile="Form1.cs" bodystart="60" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a30893a86fbaf677768bb8de1737fe586" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -291,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="56" column="22" bodyfile="Form1.cs" bodystart="56" bodyend="59"/>
+        <location file="Form1.cs" line="68" column="22" bodyfile="Form1.cs" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1ac5497577d25bacdbee3b9a982ec2d2b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -308,12 +357,29 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>The function starts an additional window for starting tasks. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="61" column="22" bodyfile="Form1.cs" bodystart="61" bodyend="65"/>
+        <location file="Form1.cs" line="77" column="22" bodyfile="Form1.cs" bodystart="77" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a1b16fb9c9c8dbf4bea6f1947913200c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -330,12 +396,68 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>The function closes the dispatcher. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.cs" line="67" column="22" bodyfile="Form1.cs" bodystart="67" bodyend="70"/>
+        <location file="Form1.cs" line="95" column="22" bodyfile="Form1.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classprocess_1_1_form1_1ad592557aec43eefc84b232a0ce3b83be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form1.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <qualifiedname>process.Form1.button2_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>This function was to delete the process that would be entered in the string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="104" column="22" bodyfile="Form1.cs" bodystart="104" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form1_1a3cb1c877bd167cf71b525dfc2ff8c81a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -350,7 +472,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form1.Designer.cs" line="29" column="22" bodyfile="Form1.Designer.cs" bodystart="29" bodyend="133"/>
+        <location file="Form1.Designer.cs" line="29" column="22" bodyfile="Form1.Designer.cs" bodystart="29" bodyend="147"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -388,7 +510,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Form1.cs" line="5" column="19" bodyfile="Form1.cs" bodystart="6" bodyend="71"/>
+    <location file="Form1.cs" line="5" column="19" bodyfile="Form1.cs" bodystart="6" bodyend="109"/>
     <listofallmembers>
       <member refid="classprocess_1_1_form1_1a1d4efa3fd437f0a0e7aafe6523023c20" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>Ð²Ñ‹Ñ…Ð¾Ð´ToolStripMenuItem</name></member>
       <member refid="classprocess_1_1_form1_1afe54184f083a69b733900d0e7d2a4a2f" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ToolStripMenuItem</name></member>
@@ -396,6 +518,8 @@
       <member refid="classprocess_1_1_form1_1ac5497577d25bacdbee3b9a982ec2d2b7" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>ôóíêöèèToolStripMenuItem_Click</name></member>
       <member refid="classprocess_1_1_form1_1a78dc5d579d51a8cd54a59bd5cbb7ef21" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>button1</name></member>
       <member refid="classprocess_1_1_form1_1a080740ee11a6b2e0991abbaa599ccff7" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>button1_Click</name></member>
+      <member refid="classprocess_1_1_form1_1a6db604d8b5ba559c4f723aae4237ed2c" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>button2</name></member>
+      <member refid="classprocess_1_1_form1_1ad592557aec43eefc84b232a0ce3b83be" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>button2_Click</name></member>
       <member refid="classprocess_1_1_form1_1a9b19dfd55a749e8edc8499f92e600c25" prot="private" virt="non-virtual"><scope>process::Form1</scope><name>components</name></member>
       <member refid="classprocess_1_1_form1_1af78e14feb74940d74ded2e5e4f9e120b" prot="protected" virt="non-virtual"><scope>process::Form1</scope><name>Dispose</name></member>
       <member refid="classprocess_1_1_form1_1a95daa68cf9ebdbe70396a1b7bf90bbee" prot="public" virt="non-virtual"><scope>process::Form1</scope><name>Form1</name></member>

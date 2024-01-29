@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="ru">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
   <compounddef id="classprocess_1_1_form2" kind="class" language="C#" prot="public">
     <compoundname>process::Form2</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.Designer.cs" line="92" column="25" bodyfile="Form2.Designer.cs" bodystart="92" bodyend="-1"/>
+        <location file="Form2.Designer.cs" line="93" column="25" bodyfile="Form2.Designer.cs" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form2_1a12d72cc4034856b10629898905750f5e" prot="private" static="no" mutable="no">
         <type>Label</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.Designer.cs" line="93" column="23" bodyfile="Form2.Designer.cs" bodystart="93" bodyend="-1"/>
+        <location file="Form2.Designer.cs" line="94" column="23" bodyfile="Form2.Designer.cs" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form2_1a00de0301a298e0bba617d5fb78daa80d" prot="private" static="no" mutable="no">
         <type>Button</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.Designer.cs" line="94" column="24" bodyfile="Form2.Designer.cs" bodystart="94" bodyend="-1"/>
+        <location file="Form2.Designer.cs" line="95" column="24" bodyfile="Form2.Designer.cs" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classprocess_1_1_form2_1a949eb412f3590a3723d0ae278e3b8c3e" prot="private" static="no" mutable="no">
         <type>Button</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.Designer.cs" line="95" column="24" bodyfile="Form2.Designer.cs" bodystart="95" bodyend="-1"/>
+        <location file="Form2.Designer.cs" line="96" column="24" bodyfile="Form2.Designer.cs" bodystart="96" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.cs" line="15" column="16" bodyfile="Form2.cs" bodystart="15" bodyend="18"/>
+        <location file="Form2.cs" line="17" column="16" bodyfile="Form2.cs" bodystart="17" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.cs" line="20" column="22" bodyfile="Form2.cs" bodystart="20" bodyend="23"/>
+        <location file="Form2.cs" line="22" column="22" bodyfile="Form2.cs" bodystart="22" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form2_1a1b57a990dcc89e6b28baea089a5f3e41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -131,12 +131,29 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>Button responsible for launching a task from textBox. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.cs" line="25" column="22" bodyfile="Form2.cs" bodystart="25" bodyend="28"/>
+        <location file="Form2.cs" line="31" column="22" bodyfile="Form2.cs" bodystart="31" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form2_1a6de2b57995ddf76cdc06d6f910a26b94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -158,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.cs" line="30" column="22" bodyfile="Form2.cs" bodystart="30" bodyend="33"/>
+        <location file="Form2.cs" line="48" column="22" bodyfile="Form2.cs" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form2_1a9eb3e9f6710fc81381fc8b13ab0d6e63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -175,12 +192,51 @@
           <declname>e</declname>
         </param>
         <briefdescription>
+<para>Button to close task startup. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form2.cs" line="57" column="22" bodyfile="Form2.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classprocess_1_1_form2_1a3ed929c3695f137ee66fbc6990179a94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void process.Form2.textBox1_TextChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>textBox1_TextChanged</name>
+        <qualifiedname>process.Form2.textBox1_TextChanged</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.cs" line="35" column="22" bodyfile="Form2.cs" bodystart="35" bodyend="38"/>
+        <location file="Form2.cs" line="62" column="22" bodyfile="Form2.cs" bodystart="62" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classprocess_1_1_form2_1a66fbbd3a44fe572215c49975e0c6e8e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -195,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Form2.Designer.cs" line="29" column="22" bodyfile="Form2.Designer.cs" bodystart="29" bodyend="88"/>
+        <location file="Form2.Designer.cs" line="29" column="22" bodyfile="Form2.Designer.cs" bodystart="29" bodyend="89"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -233,7 +289,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Form2.cs" line="13" column="19" bodyfile="Form2.cs" bodystart="14" bodyend="39"/>
+    <location file="Form2.cs" line="15" column="19" bodyfile="Form2.cs" bodystart="16" bodyend="66"/>
     <listofallmembers>
       <member refid="classprocess_1_1_form2_1a00de0301a298e0bba617d5fb78daa80d" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>button1</name></member>
       <member refid="classprocess_1_1_form2_1a1b57a990dcc89e6b28baea089a5f3e41" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>button1_Click</name></member>
@@ -247,6 +303,7 @@
       <member refid="classprocess_1_1_form2_1a12d72cc4034856b10629898905750f5e" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>label1</name></member>
       <member refid="classprocess_1_1_form2_1abd45fc061a204975bc98f8c7c7818774" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>label1_Click</name></member>
       <member refid="classprocess_1_1_form2_1a159abdbfda75eb26d1eba4d0ad1f76f5" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>textBox1</name></member>
+      <member refid="classprocess_1_1_form2_1a3ed929c3695f137ee66fbc6990179a94" prot="private" virt="non-virtual"><scope>process::Form2</scope><name>textBox1_TextChanged</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

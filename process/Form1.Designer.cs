@@ -39,8 +39,9 @@
             button2 = new Button();
             listView1 = new ListView();
             Task = new ColumnHeader();
-            Icon = new ColumnHeader();
+            columnHeader1 = new ColumnHeader();
             pictureBox1 = new PictureBox();
+            imageList1 = new ImageList(components);
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -116,10 +117,11 @@
             // 
             // listView1
             // 
-            listView1.Columns.AddRange(new ColumnHeader[] { Task, Icon });
-            listView1.Location = new Point(12, 27);
+            listView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            listView1.Columns.AddRange(new ColumnHeader[] { Task, columnHeader1 });
+            listView1.Location = new Point(42, 27);
             listView1.Name = "listView1";
-            listView1.Size = new Size(776, 391);
+            listView1.Size = new Size(746, 391);
             listView1.Sorting = SortOrder.Ascending;
             listView1.TabIndex = 5;
             listView1.UseCompatibleStateImageBehavior = false;
@@ -128,22 +130,30 @@
             // 
             // Task
             // 
-            Task.DisplayIndex = 1;
             Task.Text = "Task";
+            Task.Width = 100;
             // 
-            // Icon
+            // columnHeader1
             // 
-            Icon.DisplayIndex = 0;
-            Icon.Text = "Icon";
+            columnHeader1.Text = "";
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 49);
+            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            pictureBox1.Location = new Point(0, 49);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(52, 369);
+            pictureBox1.Size = new Size(41, 369);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.DpiChangedAfterParent += Form1_Load;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(16, 16);
+            imageList1.TransparentColor = Color.Transparent;
             // 
             // Form1
             // 
@@ -152,11 +162,11 @@
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(800, 483);
             Controls.Add(pictureBox1);
-            Controls.Add(listView1);
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(menuStrip1);
+            Controls.Add(listView1);
             MainMenuStrip = menuStrip1;
             MinimumSize = new Size(246, 362);
             Name = "Form1";
@@ -181,7 +191,8 @@
         private Button button2;
         private ListView listView1;
         private ColumnHeader Task;
-        private ColumnHeader Icon;
         private PictureBox pictureBox1;
+        private ColumnHeader columnHeader1;
+        private ImageList imageList1;
     }
 }

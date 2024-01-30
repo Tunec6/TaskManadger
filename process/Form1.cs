@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace process
 {
@@ -101,12 +102,17 @@ namespace process
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+
             foreach (Process process in Process.GetProcesses())
             {
+                imageList1 = new ImageList ();
+
+                listView1.Items.Add(process.ProcessName);
                 try
                 {
                     // Загружаем иконку процесса
-                    Icon icon = System.Drawing.Icon.ExtractAssociatedIcon(process.MainModule.FileName);
+                    Icon icon = Icon.ExtractAssociatedIcon(process.MainModule.FileName);
 
                     // Создаем новый PictureBox для отображения иконки
                     PictureBox pictureBox = new PictureBox();
@@ -115,13 +121,16 @@ namespace process
 
                     // Устанавливаем положение PictureBox на форме
                     pictureBox.Left = 10;
-                    pictureBox.Top = Controls.Count * 50;
+                    pictureBox.Top = pictureBox1.Controls.Count * 10;
 
                     // Добавляем PictureBox на форму
-                    this.Controls.Add(pictureBox);
+                    pictureBox1.Controls.Add(pictureBox);
                 }
-                catch { };
-                listView1.Items.Add(process.ProcessName);
+                catch
+                {
+
+                };
+
             }
         }
 
@@ -133,6 +142,12 @@ namespace process
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void getImage(object sender,EventArgs e)
+        {
+            listView1_SelectedIndexChanged(sender, e);
+            pictureBox1_Click (sender, e);  
         }
     }
 }
